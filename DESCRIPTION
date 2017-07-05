@@ -1,0 +1,13 @@
+Package: KalkulatorPajak
+Type: Package
+Title: Indonesian Tax Calculator
+Version: 0.1.0
+Date: 2017-07-05
+Author: Yudha H Tejaningrat <yudha.tejaningrat@pajak.go.id>
+Maintainer: Yudha H Tejaningrat <yudha.tejaningrat@pajak.go.id>
+URL: http://github.com/yht/KalkulatorPajak
+BugReports: https://github.com/yht/KalkulatorPajak/issues
+Description: Calculate Tax based on Indonesian Tax Law.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
