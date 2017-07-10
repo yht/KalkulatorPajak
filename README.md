@@ -22,4 +22,11 @@ Calculate Tax based on Indonesian Tax Law
 
 ## To Do
 
-* A lot of to do.
+### Next Minor
+
+* Individual Income Tax Function.
+* Super Simple Individual Income Tax Form (1770-SS) ready to print.
+
+### Next Major
+
+* Implementation of Super Simple Individual Income Tax Form (1770-SS).
