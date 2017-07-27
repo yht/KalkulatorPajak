@@ -1,11 +1,11 @@
-pph17p1a <- function(pkp, braket=tbl_pph17p1a) {
+pph17p1a <- function(pkp, bracket=KalkulatorPajak::tbl_pph17p1a) {
   PPh <- 0
-  for(i in 1:nrow(braket)) {
-    if(pkp <= braket[i, c("Max")] && pkp > braket[i, c("Min")]) {
-      Min = braket[i, c("Min")]
+  for(i in 1:nrow(bracket)) {
+    if(pkp <= bracket[i, c("Max")] && pkp > bracket[i, c("Min")]) {
+      Min = bracket[i, c("Min")]
       Scale = pkp - Min
-      Trf = braket[i, c("Tarif")]
-      PPh = braket[i, c("Vmin")] + (Scale * Trf)
+      Trf = bracket[i, c("Tarif")]
+      PPh = bracket[i, c("Vmin")] + (Scale * Trf)
     }
   }
   return(PPh)

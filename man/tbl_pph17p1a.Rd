@@ -19,14 +19,8 @@ and tarifs.
     \item{\code{Vmin}}{Tax Minimum on Range: a numeric vector}
   }
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
 \source{
 Income Tax Law article 17 paragraph 1 (a).
-}
-\references{
-%%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
 data(tbl_pph17p1a)
