@@ -1,7 +1,7 @@
 Package: KalkulatorPajak
 Type: Package
 Title: Indonesian Tax Calculator
-Version: 0.1.4
+Version: 0.1.5
 Authors@R: 
     person("Yudha H", "Tejaningrat", 
            email = "yudha.tejaningrat@pajak.go.id", 
@@ -11,7 +11,7 @@ Description: Provides functions to calculate various types of taxes
     income taxes, deductions, and standard tax forms (e.g., 1770-SS). 
     The package aims to simplify compliance calculations for taxpayers 
     and researchers studying Indonesia’s tax system.
-License: GPL-3
+License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
 Depends: 
